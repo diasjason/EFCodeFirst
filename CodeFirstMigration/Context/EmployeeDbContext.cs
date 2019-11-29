@@ -13,6 +13,8 @@ namespace CodeFirstMigration.Context
         }
 
         DbSet<Employee> Employees { get; set; }
+        DbSet<Issues> Issues { get; set; }
+        DbSet<Status> Status { get; set; }
     }
 
 }
